@@ -1,4 +1,27 @@
-# my-vue-library
+# USAGE
+## full bundle
+```
+import WrVue from './index'
+
+Vue.use(WrVue)
+```
+## as plugin
+```
+import WrInput from './components/WrInput'
+
+Vue.use(WrInput)
+```
+## as component
+```
+import { WrInput } from './components/WrInput'
+
+Vue.component('wr-input', WrInput)
+```
+
+# TODO
+1. [] spec file in components
+2. [] 1 page per each component
+3. [] component generator
 
 ## Project setup
 ```
@@ -25,5 +48,7 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+

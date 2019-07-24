@@ -18,6 +18,7 @@
 
 <script>
 export default {
+	name: "wr-input",
 	data() {
 		return {
 			hover: false

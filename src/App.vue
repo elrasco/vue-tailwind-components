@@ -1,18 +1,18 @@
 <template>
 	<div id="app">
-    <wr-input valiue="3"></wr-input>
+		<wr-input valiue="3"></wr-input>
 	</div>
 </template>
 
 <script>
+import Vue from 'vue'
+//import { WrInput } from './components/WrInput'
+import WrVue from './index'
 
-import WrInput from './components/WrInput'
+Vue.use(WrVue)
 
 export default {
-	name: 'app',
-	components: {
-		WrInput
-	}
+	name: 'app'
 }
 </script>
 
